@@ -12,6 +12,8 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    npm uninstall @angular-devkit/build-angular
+    npm install --save-dev @angular-devkit/build-angular
     rm -rf node_modules package-lock.json
     npm install -g @angular/cli
     npm install
