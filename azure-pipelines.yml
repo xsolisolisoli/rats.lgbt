@@ -16,7 +16,7 @@ steps:
     npm install --save-dev @angular-devkit/build-angular
     rm -rf node_modules package-lock.json
     npm install -g @angular/cli
-    npm install
+    npm ci
   displayName: 'Install Angular CLI and dependencies'
 
 - script: |
