@@ -13,6 +13,7 @@ steps:
 
 - script: |
     npm install -g @angular/cli
+    npm install @angular-devkit/build-angular --save-dev
     npm ci
   displayName: 'Install Angular CLI and dependencies'
 
